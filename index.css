@@ -1,0 +1,74 @@
+body{margin:0;}
+
+header{
+
+    background-color: darkslategrey;
+}
+#title{
+
+    font-family: 'Consolas';
+    text-align: center;
+    color: whitesmoke;
+
+}
+
+
+#image{
+    display:block;
+    max-width: 100%;
+    height:auto;
+    border: solid 1px black;
+    border-radius: 1px
+}
+
+#img-caption{font-style: italic;
+font-weight:bold;
+text-align: center;
+}
+
+#tribute-info{
+    margin-top: 30px;
+    padding-top: 30px;
+background-color: rgb(145, 145, 253);
+border: solid 1px black;
+border-radius: 5px;
+
+
+}
+
+#tribute-info p{
+
+    font-size: large;
+    font-family: 'monospace', 'consolas';
+    font-weight: bold;
+
+}
+
+#tribute-info h3{
+
+text-align: center;
+font-size: 30px;
+text-shadow: 2px 2px 3px black;
+
+}
+
+#caja{
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    
+}
+    #caja li{
+margin-left: 100px;
+font-family: 'monospace','consolas';
+font-weight: bold;
+font-size:20px
+    }
+
+    #tribute-link {
+
+        color:#FFFF;
+        font-size: 20px;
+        
+
+    }
